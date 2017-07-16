@@ -27,7 +27,7 @@ body  {
 	text-align: left; 
 }
 
-.header { 
+header { 
 	height:120px;
 	float:left;
 	width:100%;
@@ -44,7 +44,8 @@ h1 {
 	font-size: 24px;
 	font-weight: bold;
 }
-.header h1 {
+
+header h1 {
 	margin: 0; 
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -53,15 +54,6 @@ h1 {
 	padding-right: 0;
 	padding-bottom: 10px;
 	padding-left: 0;	
-}
-
-#sidebar1 a {
-color:#000;
-}
-
-#sidebar1 a:hover {
-text-decoration:underline;
-font-size:14px;
 }
 
 aside {
@@ -91,7 +83,7 @@ aside ul  li a:hover {
 	text-decoration:underline;
 }
 
-.mainContent { 
+main { 
 	width:680px;
 	padding: 0 20px; 
 	float:right;
@@ -114,13 +106,13 @@ footer p {
 }
 
 footer a {
-color:black;
-text-decoration:none;
+	color:black;
+	text-decoration:none;
 }
 
 footer a :hover {
-color:black;
-text-decoration:underline;
+	color:black;
+	text-decoration:underline;
 }
 
 .fltrt { 
@@ -131,10 +123,6 @@ text-decoration:underline;
 .fltlft { 
 	float: left;
 	margin-right: 8px;
-}
-
-.lgp #wrapper #header img {
-	margin: 10px;
 }
 
 .logo {
@@ -158,10 +146,10 @@ text-decoration:underline;
 }
 
 .logo {
-width:300px;
-height:100px;
-padding:10px;
-float:left;
+	width:300px;
+	height:100px;
+	padding:10px;
+	float:left;
 }
 
 h1 {
@@ -176,7 +164,6 @@ article img {
 }
 
 .patent {
-	
 	width: 600px;	
 }
 
@@ -211,6 +198,7 @@ nav ul  li a {
 .line {
 	color: red;
 }
+
 nav ul  li a:hover {
 	color:#000;
 	text-decoration:underline;
